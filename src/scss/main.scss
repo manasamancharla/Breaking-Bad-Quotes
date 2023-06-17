@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+$transition: all 400ms ease;
+$main-color: #3f3a64;
+$secondary-color: #f8f9fa;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url("../assets/desert.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.containerDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  background-color: rgba($color: $secondary-color, $alpha: 0.8);
+  height: 300px;
+  width: 500px;
+  padding: 50px;
+  text-align: center;
+  border-radius: 16px;
+  box-shadow: 0 0 2px;
+}
+
+.containerDiv {
+  p {
+    color: $main-color;
+    font-weight: 500;
+  }
+}
+
+#authorDiv {
+  text-transform: uppercase;
+}
+
+#genQuote {
+  width: max-content;
+  font-weight: 600;
+  color: $main-color;
+  padding: 12px 19.2px;
+  border-radius: 8px;
+  border: 1px solid $main-color;
+  background-color: transparent;
+  transition: $transition;
+
+  &:hover {
+    background-color: rgba($color: $secondary-color, $alpha: 0.8);
+  }
+}
