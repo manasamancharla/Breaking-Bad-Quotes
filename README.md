@@ -2,6 +2,8 @@
 
 A simple webpage that uses an API and displays random Breaking Bad Quotes.
 
+![BreakingBad](https://github.com/manasamancharla/Breaking-Bad-Quotes/assets/96481982/211142bd-b25a-4afb-908b-d3768adebcaa)
+
 # Getting Started with Parcel
 
 This project was bootstrapped with [Parcel](https://github.com/parcel-bundler/parcel).
